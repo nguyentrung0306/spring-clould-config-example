@@ -22,7 +22,7 @@ spring:
           # within the cloned git repo search for properties in this directory
           searchPaths: properties-git
         native:
-          searchLocations: file:../properties-local
+          searchLocations: file:../properties-git
 
 # Activate this using -Dspring.profiles.active=native
 #  profiles:
