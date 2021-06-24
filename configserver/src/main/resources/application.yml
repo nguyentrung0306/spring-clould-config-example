@@ -18,11 +18,11 @@ spring:
         git:
           uri: https://github.com/nguyentrung0306/spring-clould-config-example
           # The git repo will be cloned to this directory
-#          basedir: target/config11
+          basedir: target/config
           # within the cloned git repo search for properties in this directory
           searchPaths: dev-config
-#        native:
-#          searchLocations: file:../properties-git
+        native:
+          searchLocations: file:../properties-git
 
 # Activate this using -Dspring.profiles.active=native
 #  profiles:
