@@ -18,7 +18,7 @@ spring:
         git:
           uri: https://github.com/nguyentrung0306/spring-clould-config-example
           # The git repo will be cloned to this directory
-          basedir: target/config
+          basedir: target/config11
           # within the cloned git repo search for properties in this directory
           searchPaths: dev-config
         native:
